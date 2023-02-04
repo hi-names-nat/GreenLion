@@ -26,9 +26,12 @@ void UInteractionComponent::AttemptInteract()
 	auto owner = Cast<AGLMainCharacter>(GetOwner());
 	auto cameraPos = owner->GetFollowCamera()->GetComponentLocation();
 	auto cameraForward = owner->GetFollowCamera()->GetForwardVector();
+	FCollisionQueryParams CollisionParams;
+	CollisionParams.AddIgnoredActor(GetOwner());
 	FHitResult OUT_Hit;
+	
 	if (!GetWorld()->LineTraceSingleByChannel(OUT_Hit, cameraPos, cameraPos +
-		(cameraForward * interactReach), ECC_Visibility)) return;
+		(cameraForward * interactReach), ECC_Visibility, CollisionParams)) return;
 	DrawDebugLine(GetWorld(), cameraPos, cameraPos + (cameraForward * interactReach), FColor::Red,
 		false, 5);
 	if (auto t = Cast<IInteractInterface>(OUT_Hit.Component->GetOwner()))

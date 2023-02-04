@@ -35,7 +35,7 @@ class AGLMainGameMode : public AGameModeBase
 
 public:
 	AGLMainGameMode();
-		void CollectItem(EItemType type, int Amt);
+		void CollectItem(EItemType Type, int Amt);
 };
 
 
