@@ -13,8 +13,8 @@
 	};*/
 
 	std::vector<potionProps> UPotionInventory::GrabPotion(int index) { //Returns the props at index
-		//std::vector<potionProps> props;
-		if (index < thePotions.size()) {
+		//std::vector<potionProps> props;                              //If you want to use the potion,
+		if (index < thePotions.size()) {                               //Combine this with ThrowPotion
 			return thePotions[index].GetProps();
 		} else
 		{
@@ -34,6 +34,19 @@
 		{
 			printf("Index is invalid");
 		}
+	}
+
+	bool UPotionInventory::IsThrown(int index) //Gets the isThrown bool without removing the element from the array
+	{                                          //(Presumably for UI purposes or smth)
+		if(index < thePotions.size())
+		{
+			return(thePotions[index].IsThrown());
+			
+		} else
+		{
+			printf("Index is invalid");
+		}
+		
 	}
 
 	int UPotionInventory::Sell(int index)  //Removes the element at index, returns its sell value

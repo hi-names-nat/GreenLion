@@ -17,7 +17,8 @@ private:
 	std::vector<UPotion> thePotions;
 
 public:
-	std::vector<potionProps> UPotionInventory::GrabPotion(int i);
+	std::vector<potionProps> GrabPotion(int i);
+	bool IsThrown(int index);
 	bool ThrowPotion(int index);
 	int Sell(int index);
 	int SellAll();
