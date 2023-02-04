@@ -1,0 +1,121 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch GreenLion (Debug)",
+			"request": "launch",
+			"program": "/home/natalie/Repos/Unreal/GreenLion/Binaries/Linux/UnrealGame-Linux-Debug",
+			"preLaunchTask": "GreenLion Linux Debug Build",
+			"args": [
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLion (DebugGame)",
+			"request": "launch",
+			"program": "/home/natalie/Repos/Unreal/GreenLion/Binaries/Linux/UnrealGame-Linux-DebugGame",
+			"preLaunchTask": "GreenLion Linux DebugGame Build",
+			"args": [
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLion (Development)",
+			"request": "launch",
+			"program": "/home/natalie/Repos/Unreal/GreenLion/Binaries/Linux/UnrealGame",
+			"preLaunchTask": "GreenLion Linux Development Build",
+			"args": [
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLion (Test)",
+			"request": "launch",
+			"program": "/home/natalie/Repos/Unreal/GreenLion/Binaries/Linux/UnrealGame-Linux-Test",
+			"preLaunchTask": "GreenLion Linux Test Build",
+			"args": [
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLion (Shipping)",
+			"request": "launch",
+			"program": "/home/natalie/Repos/Unreal/GreenLion/Binaries/Linux/UnrealGame-Linux-Shipping",
+			"preLaunchTask": "GreenLion Linux Shipping Build",
+			"args": [
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLionEditor (Debug)",
+			"request": "launch",
+			"program": "/software/unreal5.10/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"preLaunchTask": "GreenLionEditor Linux Debug Build",
+			"args": [
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject"
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLionEditor (DebugGame)",
+			"request": "launch",
+			"program": "/software/unreal5.10/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"preLaunchTask": "GreenLionEditor Linux DebugGame Build",
+			"args": [
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject"
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch GreenLionEditor (Development)",
+			"request": "launch",
+			"program": "/software/unreal5.10/Engine/Binaries/Linux/UnrealEditor",
+			"preLaunchTask": "GreenLionEditor Linux Development Build",
+			"args": [
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject"
+			],
+			"cwd": "/software/unreal5.10",
+			"type": "cppdbg",
+			"visualizerFile": "/software/unreal5.10/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/software/unreal5.10/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/software/unreal5.10"
+		}
+	]
+}

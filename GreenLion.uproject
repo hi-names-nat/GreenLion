@@ -3,6 +3,16 @@
 	"EngineAssociation": "{76A172C6-2760-45A5-B677-53C087C2C44B}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "GreenLion",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",

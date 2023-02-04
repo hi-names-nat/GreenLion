@@ -1,0 +1,3138 @@
+[
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/RD.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/RD.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/RD.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/Property.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableMap.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableSet.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IProperty.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableList.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableMap.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableSet.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalX.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/viewable_collections.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/allocator.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/list.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/to_string.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_map.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_set.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/overloaded.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/shared_function.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdPropertyBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/WireBase.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/WireBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdList.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdMap.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdProperty.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSet.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSignal.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/MessageBroker.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/MessageBroker.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SimpleScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SimpleScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SingleThreadScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SingleThreadScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/AbstractPolymorphic.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ArraySerializer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/DefaultAbstractDeclaration.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/DefaultAbstractDeclaration.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedAnySerializer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedSerializer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/NullableSerializer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdCall.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdEndpoint.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTask.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskImpl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskResult.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTask.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTaskImpl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/framework_traits.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/guards.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/thread_util.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/thread_util.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/ByteBufferAsyncProcessor.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/ByteBufferAsyncProcessor.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PkgInputStream.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PkgInputStream.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PumpScheduler.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PumpScheduler.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/SocketWire.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/SocketWire.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/WireUtil.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/WireUtil.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_gen_cpp/src/RdTextBuffer.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/src/rd_gen_cpp/src/RdTextBuffer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/CTPL/LICENSE",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/CTPL/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/CTPL/include/ctpl_stl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/README",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/ActiveSocket.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/Host.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/PassiveSocket.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/PassiveSocket.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/SimpleSocket.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/SimpleSocket.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/clsocket/src/StatTimer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/countdownlatch/LICENSE",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/countdownlatch/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/countdownlatch/countdownlatch.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/countdownlatch/countdownlatch.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/optional/COPYING",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/optional/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/optional/tl/optional.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/LICENSE",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_hash.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_map.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/LICENSE",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/ide.cmake",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/pch.h.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/spdlog.pc.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/spdlogCPack.cmake",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/spdlogConfig.cmake.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/utils.cmake",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/cmake/version.rc.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/async.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/async_logger-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/async_logger.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/cfg/argv.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/cfg/env.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/cfg/helpers-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/cfg/helpers.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/cfg/log_levels.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/console_globals.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/file_helper-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/file_helper.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/fmt_helper.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/mpmc_blocking_q.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/os.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/periodic_worker-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/periodic_worker.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/tcp_client-windows.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/tcp_client.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/thread_pool-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/thread_pool.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/udp_client-windows.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/udp_client.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/windows_include.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bin_to_hex.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/LICENSE.rst",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/args.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/chrono.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/color.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/compile.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/fmt.license.rst",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/locale.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/os.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/ostream.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/posix.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/printf.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/ranges.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/xchar.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/chrono.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/compile.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/ostr.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/ranges.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/xchar.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/formatter.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fwd.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/pattern_formatter.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/android_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ansicolor_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/base_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/basic_file_sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/basic_file_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/daily_file_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/dist_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/dup_filter_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/hourly_file_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/mongo_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/msvc_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/null_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ostream_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/qt_sinks.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/ringbuffer_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/rotating_file_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/stdout_color_sinks.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/stdout_sinks-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/stdout_sinks.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/syslog_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/systemd_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/tcp_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/udp_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/win_eventlog_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/wincolor_sink-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/sinks/wincolor_sink.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog-inl.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/stopwatch.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/logos/jetbrains-variant-4.svg",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/scripts/extract_version.py",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/scripts/format.sh",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/async.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/cfg.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/color_sinks.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/file_sinks.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/fmt.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/spdlog.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/src/stdout_sinks.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/LICENSE.txt",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/cmake/string_view-lite-config.cmake.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/include/nonstd/string_view.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/CMakeLists.txt",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/LICENSE.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/README.md",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/cmake/mpark_variant-config.cmake.in",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/include/mpark/config.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/include/mpark/in_place.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/include/mpark/lib.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RD/thirdparty/variant/include/mpark/variant.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RD.19.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/BlueprintProvider.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderBlueprint.22.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/RiderBlueprint.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderBlueprint.22.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/BlueprintProvider.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderBlueprint.22.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/RiderBlueprint.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderBlueprint.22.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderBlueprint/RiderBlueprint.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderBlueprint.22.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderGameControl/Private/RiderGameControl.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderGameControl.23.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderGameControl/Public/RiderGameControl.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderGameControl.23.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderGameControl/RiderGameControl.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderGameControl.23.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/CMakeLists.txt",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/CMakeLists.txt",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLink/RiderLink.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLink.20.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLogging.21.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderLogging.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLogging.21.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLogging.21.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLogging/Private/RiderOutputDevice.hpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLogging.21.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderLogging/RiderLogging.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderLogging.21.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderShaderInfo.24.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderShaderInfo.24.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Source/RiderShaderInfo/RiderShaderInfo.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/RiderShaderInfo.24.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/GreenLion.Build.cs",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/GreenLion.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/GreenLion.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonCharacter.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonCharacter.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonGameMode.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonGameMode.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_Default/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	}
+]

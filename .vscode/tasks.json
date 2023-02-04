@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "GreenLion Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"Linux",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Test",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLion LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLion LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLion",
+				"LinuxArm64",
+				"Shipping",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLionEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Debug",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLionEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"DebugGame",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"GreenLionEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		},
+		{
+			"label": "GreenLionEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"GreenLionEditor",
+				"Linux",
+				"Development",
+				"/home/natalie/Repos/Unreal/GreenLion/GreenLion.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/software/unreal5.10"
+			}
+		}
+	]
+}
