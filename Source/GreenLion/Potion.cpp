@@ -22,6 +22,7 @@ int UPotion::GetSellPrice(){
 	{
 		sellPrice += theEffects[i].sellValue;
 	}
+	return sellPrice;
 }
 
 
