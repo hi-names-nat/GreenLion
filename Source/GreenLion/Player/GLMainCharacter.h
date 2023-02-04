@@ -21,11 +21,14 @@ class AGLMainCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 	
 	/** MappingContext */
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
-	class UInputMappingContext* DefaultMappingContext;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Interaction, meta = (AllowPrivateAccess = "true"))
+	class UInteractionComponent* InteractionComponent;
 
 public:
 	AGLMainCharacter();
+
+	
 	
 
 protected:
