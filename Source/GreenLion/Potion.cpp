@@ -12,13 +12,13 @@
 
 bool UPotion::IsThrown() {return thrown;}                   //Get whether or not it's throwable
 
-std::vector<potionProps> UPotion::GetProps() {//Get the effects
+TArray<potionProps> UPotion::GetProps() {//Get the effects
 	return theEffects;
 }
 
 int UPotion::GetSellPrice(){
 	int sellPrice = 0;
-	for(int i = 0; i < theEffects.size(); i++)
+	for(int i = 0; i < theEffects.Num(); i++)
 	{
 		sellPrice += theEffects[i].sellValue;
 	}

@@ -12,9 +12,9 @@
 		int sellValue;
 	};*/
 
-	std::vector<potionProps> UPotionInventory::GrabPotion(int index) { //Returns the props at index
+	TArray<potionProps> UPotionInventory::GrabPotion(int index) { //Returns the props at index
 		//std::vector<potionProps> props;                              //If you want to use the potion,
-		if (index < thePotions.size()) {                               //Combine this with ThrowPotion
+		if (index < thePotions.Num()) {                               //Combine this with ThrowPotion
 			return thePotions[index].GetProps();
 		} else
 		{
@@ -24,10 +24,10 @@
 
 	bool UPotionInventory::ThrowPotion(int index)      //Removes the element at index, then returns if it's thrown or not
 	{
-		if(index < thePotions.size())
+		if(index < thePotions.Num())
 		{
 			bool throwable = thePotions[index].IsThrown();
-			thePotions.erase(thePotions.begin() + index);
+			thePotions.RemoveAt(index);
 			return throwable;
 			
 		} else
@@ -38,7 +38,7 @@
 
 	bool UPotionInventory::IsThrown(int index) //Gets the isThrown bool without removing the element from the array
 	{                                          //(Presumably for UI purposes or smth)
-		if(index < thePotions.size())
+		if(index < thePotions.Num())
 		{
 			return(thePotions[index].IsThrown());
 			
@@ -52,10 +52,10 @@
 	int UPotionInventory::Sell(int index)  //Removes the element at index, returns its sell value
 	{
 		int sellPrice = 0;
-		if(index < thePotions.size())
+		if(index < thePotions.Num())
 		{
 			sellPrice = thePotions[index].GetSellPrice();
-			thePotions.erase(thePotions.begin() + index);
+			thePotions.RemoveAt(index);
 		}
 		return sellPrice;
 	}
@@ -63,10 +63,10 @@
 	int UPotionInventory::SellAll()           //Clears the list of potions, then returns the total sell value of all of them
 	{
 		int sellPrice = 0;
-		for(int i = 0; i < thePotions.size(); i++)
+		for(int i = 0; i < thePotions.Num(); i++)
 		{
 			sellPrice += thePotions[i].GetSellPrice();
 		}
-		thePotions.clear();
+		thePotions.Empty();
 		return sellPrice;
 	}

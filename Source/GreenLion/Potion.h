@@ -18,14 +18,14 @@ class GREENLION_API UPotion : public UObject
 	
 	GENERATED_BODY()
 private:
-	std::vector<potionProps> theEffects; //All the effects of the potion
+	TArray<potionProps> theEffects; //All the effects of the potion
 	bool thrown;                         //Whether or not it's throwable
 	//
 	//Icon image?
 	//
 public:
 	bool IsThrown();
-	std::vector<potionProps> UPotion::GetProps();
+	TArray<potionProps> UPotion::GetProps();
 	int UPotion::GetSellPrice();
 };
 

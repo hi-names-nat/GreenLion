@@ -14,10 +14,10 @@ class GREENLION_API UPotionInventory : public UObject
 {
 	GENERATED_BODY()
 private:
-	std::vector<UPotion> thePotions;
+	TArray<UPotion> thePotions;
 
 public:
-	std::vector<potionProps> GrabPotion(int i);
+	TArray<potionProps> GrabPotion(int i);
 	bool IsThrown(int index);
 	bool ThrowPotion(int index);
 	int Sell(int index);
