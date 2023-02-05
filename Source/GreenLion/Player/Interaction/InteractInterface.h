@@ -8,7 +8,7 @@
 
 // This class does not need to be modified.
 UINTERFACE()
-class UInteractInterface : public UInterface
+class GREENLION_API UInteractInterface : public UInterface
 {
 	GENERATED_BODY()
 };
