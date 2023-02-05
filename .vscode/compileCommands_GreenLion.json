@@ -3080,6 +3080,22 @@
 		"directory": "/software/unreal5.10/Engine/Source"
 	},
 	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Environment/CollectablePlant.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Environment/CollectablePlant.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
 		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/GreenLion.Build.cs",
 		"arguments": [
 			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
@@ -3104,7 +3120,7 @@
 		"directory": "/software/unreal5.10/Engine/Source"
 	},
 	{
-		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonCharacter.cpp",
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLMainCharacter.cpp",
 		"arguments": [
 			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
@@ -3112,7 +3128,7 @@
 		"directory": "/software/unreal5.10/Engine/Source"
 	},
 	{
-		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonCharacter.h",
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLMainCharacter.h",
 		"arguments": [
 			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
@@ -3120,7 +3136,7 @@
 		"directory": "/software/unreal5.10/Engine/Source"
 	},
 	{
-		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonGameMode.cpp",
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLMainGameMode.cpp",
 		"arguments": [
 			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
@@ -3128,7 +3144,71 @@
 		"directory": "/software/unreal5.10/Engine/Source"
 	},
 	{
-		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/TP_ThirdPerson/ThirdPersonGameMode.h",
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLMainGameMode.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLPlayerController.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/GLPlayerController.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Interaction/InteractInterface.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Interaction/InteractInterface.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Interaction/InteractionComponent.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Interaction/InteractionComponent.h",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Inventory/UInventoryItem.cpp",
+		"arguments": [
+			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"
+		],
+		"directory": "/software/unreal5.10/Engine/Source"
+	},
+	{
+		"file": "/home/natalie/Repos/Unreal/GreenLion/Source/GreenLion/Player/Inventory/UInventoryItem.h",
 		"arguments": [
 			"/software/unreal5.10/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
 			"@/home/natalie/Repos/Unreal/GreenLion/.vscode/compileCommands_GreenLion/GreenLion.248.rsp"

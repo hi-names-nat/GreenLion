@@ -3,3 +3,13 @@
 
 #include "GLPlayerController.h"
 
+#include "GreenLion/PotionInventory.h"
+
+AGLPlayerController::AGLPlayerController()
+{
+	PrimaryActorTick.bCanEverTick = true;
+
+	Potions = CreateDefaultSubobject<UPotionInventory>(TEXT("Potions"));
+}
+
+

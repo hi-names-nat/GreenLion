@@ -7,6 +7,15 @@
 #include "GreenLion/Player/Interaction/InteractInterface.h"
 #include "CollectablePlant.generated.h"
 
+UENUM()
+enum struct EType
+{
+	Berry,
+	Flower,
+	Shroom,
+	Herb,
+};
+
 class UInteractableComponent;
 UCLASS()
 class GREENLION_API ACollectablePlant : public AActor, public IInteractInterface
@@ -14,6 +23,10 @@ class GREENLION_API ACollectablePlant : public AActor, public IInteractInterface
 	GENERATED_BODY()
 
 	UInteractableComponent *InteractableComponent;
+
+	UPROPERTY(EditAnywhere)
+	EType Type;
+	
 public:
 	// Sets default values for this actor's properties
 	ACollectablePlant();

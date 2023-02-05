@@ -6,19 +6,13 @@
 
 AGLMainGameMode::AGLMainGameMode()
 {
-	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter"));
-	if (PlayerPawnBPClass.Class != NULL)
-	{
-		DefaultPawnClass = PlayerPawnBPClass.Class;
-	}
 
 	CurrentInv = FInventory{0,0, 0};
 }
 
-void AGLMainGameMode::CollectItem(const EItemType type, const int Amt)
+void AGLMainGameMode::CollectItem(const EItemType Type, const int Amt)
 {
-	switch (type)
+	switch (Type)
 	{
 	case Item1:
 		CurrentInv.NumItem1 += Amt;

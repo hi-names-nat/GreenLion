@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Default ignored files
 /shelf/
 /workspace.xml
@@ -11,3 +12,18 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.GreenLion.iml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+>>>>>>> f1823ce9b0520cf0ca0ec553d23b6a4cb3b061bd
