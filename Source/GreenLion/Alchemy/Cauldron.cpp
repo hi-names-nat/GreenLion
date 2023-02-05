@@ -16,7 +16,7 @@ void ACauldron::BeginPlay()
 {
 	Super::BeginPlay();
 	
-}
+}	
 
 // Called every frame
 void ACauldron::Tick(float DeltaTime)

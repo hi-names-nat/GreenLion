@@ -38,7 +38,7 @@ class AReagent: public AActor
 public:
 	AReagent();
 
-	void ApplyModifier(EModifier Modifier, UStaticMesh* NewMesh);
+	void ApplyModifier(EModifier Modif7ier, UStaticMesh* NewMesh);
 
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess= "true"))
