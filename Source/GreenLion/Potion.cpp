@@ -12,7 +12,7 @@
 
 bool UPotion::IsThrown() {return thrown;}                   //Get whether or not it's throwable
 
-TArray<potionProps> UPotion::GetProps() {//Get the effects
+TArray<FPotionProps> UPotion::GetProps() {//Get the effects
 	return theEffects;
 }
 

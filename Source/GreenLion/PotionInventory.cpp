@@ -12,13 +12,17 @@
 		int sellValue;
 	};*/
 
-	TArray<potionProps> UPotionInventory::GrabPotion(int index) { //Returns the props at index
+	TArray<FPotionProps> UPotionInventory::GrabPotion(int index) { //Returns the props at index
 		//std::vector<potionProps> props;                              //If you want to use the potion,
 		if (index < thePotions.Num()) {                               //Combine this with ThrowPotion
-			return thePotions[index].GetProps();
-		} else
-		{
+			return thePotions[index] -> GetProps();
+		} else {
+		
 			printf("Index is invalid");
+			
+			TArray<FPotionProps> error;
+			return error;
+			
 		}
 	}
 
@@ -26,13 +30,14 @@
 	{
 		if(index < thePotions.Num())
 		{
-			bool throwable = thePotions[index].IsThrown();
+			bool throwable = thePotions[index] -> IsThrown();
 			thePotions.RemoveAt(index);
 			return throwable;
 			
 		} else
 		{
 			printf("Index is invalid");
+			return false;
 		}
 	}
 
@@ -40,11 +45,12 @@
 	{                                          //(Presumably for UI purposes or smth)
 		if(index < thePotions.Num())
 		{
-			return(thePotions[index].IsThrown());
+			return(thePotions[index] -> IsThrown());
 			
 		} else
 		{
 			printf("Index is invalid");
+			return false;
 		}
 		
 	}
@@ -54,7 +60,7 @@
 		int sellPrice = 0;
 		if(index < thePotions.Num())
 		{
-			sellPrice = thePotions[index].GetSellPrice();
+			sellPrice = thePotions[index] -> GetSellPrice();
 			thePotions.RemoveAt(index);
 		}
 		return sellPrice;
@@ -65,7 +71,7 @@
 		int sellPrice = 0;
 		for(int i = 0; i < thePotions.Num(); i++)
 		{
-			sellPrice += thePotions[i].GetSellPrice();
+			sellPrice += thePotions[i] -> GetSellPrice();
 		}
 		thePotions.Empty();
 		return sellPrice;
