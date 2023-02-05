@@ -14,6 +14,7 @@ class GREENLION_API AGLPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 
-	
+public:
+	int Money;
 	
 };
