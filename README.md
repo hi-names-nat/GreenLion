@@ -1,6 +1,6 @@
 # GreenLion
 
-Green Lion prototype. You play as an alchemist who is running out of time. By foraging and selling items, you can craft potions 
+Green Lion prototype. You play as an alchemist who is suffering from a disease. By foraging and selling items, you can craft potions with varying effects in order to potentially cure your illness.
 
 Revisions:
 --------------------------------------------------------
