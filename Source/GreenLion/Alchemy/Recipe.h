@@ -1,17 +1,25 @@
 #pragma once
 
-struct FReagent;
+#include "ReagentData.h"
+#include "Recipe.generated.h"
+
+struct FReagentData;
 
 USTRUCT()
 struct FRecipe
 {
-	TArray<FReagent> RequiredReagents;
+	GENERATED_BODY()
+
+	UPROPERTY(EditAnywhere)
+	TArray<FReagentData> RequiredReagents;
 
 	//Add resultant here.
 };
 
-class URecipes : UClass
+UCLASS()
+class URecipes : public UObject
 {
+	GENERATED_BODY()
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
 	TArray<FRecipe> Recipes;
 	

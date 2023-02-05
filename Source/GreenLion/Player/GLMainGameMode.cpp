@@ -6,15 +6,6 @@
 
 AGLMainGameMode::AGLMainGameMode()
 {
-	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(
-		TEXT("Game/GreenLion/Player/BP_MainCharacter.BP_MainCharacter")
-		);
-	
-	if (PlayerPawnBPClass.Class != nullptr)
-	{
-		DefaultPawnClass = PlayerPawnBPClass.Class;
-	}
 
 	CurrentInv = FInventory{0,0, 0};
 }
