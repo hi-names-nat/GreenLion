@@ -4,9 +4,8 @@ Green Lion prototype. You play as an alchemist who is running out of time. By fo
 
 Revisions:
 --------------------------------------------------------
-2023-02-04
-  *
-  *
+2023-02-03
+  * Started Project
 --------------------------------------------------------
 
 Part of the Global Game Jam February 2023
