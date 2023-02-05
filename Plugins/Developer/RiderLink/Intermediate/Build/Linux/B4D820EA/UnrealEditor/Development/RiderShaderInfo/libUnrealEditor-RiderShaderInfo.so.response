@@ -1,0 +1,6 @@
+"/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/RiderShaderInfo/RiderShaderInfo.cpp.o"
+ -soname="libUnrealEditor-RiderShaderInfo.so"
+ -rpath-link="/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Binaries/Linux"
+ -L"/software/unreal5.10/Engine/Binaries/Linux"
+ --start-group
+ --end-group

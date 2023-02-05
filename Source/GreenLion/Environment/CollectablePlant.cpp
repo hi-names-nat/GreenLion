@@ -4,6 +4,8 @@
 #include "CollectablePlant.h"
 
 #include "NavigationSystemTypes.h"
+#include "DSP/AudioDebuggingUtilities.h"
+#include "GreenLion/Player/GLPlayerController.h"
 
 
 // Sets default values
@@ -29,7 +31,26 @@ void ACollectablePlant::Tick(float DeltaTime)
 
 void ACollectablePlant::Interact(APlayerController* PlayerController)
 {
-	UE_LOG(LogTemp, Log, TEXT("Interacted with."));
+	auto EPC = Cast<AGLPlayerController>(PlayerController);
+	if (!EPC) return;
+	
+	switch (Type)
+	{
+	case EType::Berry:
+		EPC->numBerry++;
+		break;
+	case EType::Flower:
+		EPC->numFlower++;
+		break;
+	case EType::Herb:
+		EPC->numRoot++;
+		break;
+	case EType::Shroom:
+		EPC->numShroom++;
+		break;
+	}
+
+	Destroy();
 
 }
 

@@ -15,13 +15,16 @@ struct FPotionProps;
 class UPotion;
 
 UCLASS()
-class GREENLION_API UPotionInventory : public UObject
+class GREENLION_API UPotionInventory : public USceneComponent
 {
 	GENERATED_BODY()
 private:
-	TArray<UPotion*> thePotions;
 
 public:
+	UPotionInventory();
+	TArray<UPotion*> thePotions;
+
+	
 	TArray<FPotionProps> GrabPotion(int i);
 	bool IsThrown(int index);
 	bool ThrowPotion(int index);

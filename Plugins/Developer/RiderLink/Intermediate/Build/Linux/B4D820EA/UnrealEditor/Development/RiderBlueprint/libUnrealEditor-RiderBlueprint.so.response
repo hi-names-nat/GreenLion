@@ -1,0 +1,7 @@
+"/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/RiderBlueprint/Module.RiderBlueprint.cpp.o"
+ -soname="libUnrealEditor-RiderBlueprint.so"
+ -rpath-link="/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Binaries/Linux"
+ -L"/software/unreal5.10/Engine/Binaries/Linux"
+ -L"/home/natalie/Repos/Unreal/GreenLion/Plugins/Developer/RiderLink/Binaries/Linux"
+ --start-group
+ --end-group
