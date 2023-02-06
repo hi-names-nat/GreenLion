@@ -2,13 +2,9 @@
 
 
 #include "InteractionComponent.h"
-
 #include "InteractInterface.h"
 #include "Camera/CameraComponent.h"
-#include "GameFramework/Character.h"
 #include "GreenLion/Player/GLMainCharacter.h"
-#include "Kismet/GameplayStatics.h"
-
 
 // Sets default values for this component's properties
 UInteractionComponent::UInteractionComponent()

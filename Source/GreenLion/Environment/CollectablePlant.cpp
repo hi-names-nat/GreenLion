@@ -3,7 +3,6 @@
 
 #include "CollectablePlant.h"
 
-#include "NavigationSystemTypes.h"
 #include "DSP/AudioDebuggingUtilities.h"
 #include "GreenLion/Player/GLPlayerController.h"
 
