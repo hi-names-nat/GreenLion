@@ -7,11 +7,42 @@
 #include "ReagentData.generated.h"
 	
 UENUM()
-enum struct EModifier 
+enum struct EReagentType
 {
-	Distilled = 0b001,
-	Heated =	0b010,
-	Pestled =	0b100,
+	Berry,
+	Flower,
+	Herb,
+	Animal,	
+};
+
+UENUM()
+enum struct EReagentClassification
+{
+	Fae,
+	Earthen,
+	
+};
+	
+UENUM()
+enum struct EPotionEffectType : int
+{
+	Fire,
+	NightVision,
+	Poison,
+	InstantHarm,
+	Speed,
+};
+
+USTRUCT()
+struct FPotionEffect
+{
+	//The type of effect to add to the potion
+	EModifierType Type;
+
+	//The modifier of the value.
+	//For instance: Speed with a modifier of 1.5 will multiply the user's
+	//	speed by 1.5x for the duration.
+	float Modifier;
 };
 
 /**
@@ -38,7 +69,7 @@ class AReagent: public AActor
 public:
 	AReagent();
 
-	void ApplyModifier(EModifier Modif7ier, UStaticMesh* NewMesh);
+	void ApplyModifier(EModifier Modifier, UStaticMesh* NewMesh);
 
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess= "true"))
