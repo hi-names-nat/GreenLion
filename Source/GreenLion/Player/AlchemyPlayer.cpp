@@ -24,7 +24,6 @@ AAlchemyPlayer::AAlchemyPlayer()
 void AAlchemyPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

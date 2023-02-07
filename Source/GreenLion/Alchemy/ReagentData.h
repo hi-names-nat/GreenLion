@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "ReagentData.generated.h"
 	
 UENUM()
@@ -24,7 +23,7 @@ enum struct EReagentClassification
 };
 	
 UENUM()
-enum struct EPotionEffectType : int
+enum struct EPotionEffectType
 {
 	Fire,
 	NightVision,
@@ -36,8 +35,9 @@ enum struct EPotionEffectType : int
 USTRUCT()
 struct FPotionEffect
 {
+	GENERATED_BODY()
 	//The type of effect to add to the potion
-	EModifierType Type;
+	EPotionEffectType Type;
 
 	//The modifier of the value.
 	//For instance: Speed with a modifier of 1.5 will multiply the user's
@@ -69,7 +69,7 @@ class AReagent: public AActor
 public:
 	AReagent();
 
-	void ApplyModifier(EModifier Modifier, UStaticMesh* NewMesh);
+	void ApplyModifier(EPotionEffectType Modifier, UStaticMesh* NewMesh);
 
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess= "true"))

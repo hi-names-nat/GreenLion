@@ -11,7 +11,7 @@ AReagent::AReagent()
 	
 }
 
-void AReagent::ApplyModifier(EModifier Modifier, UStaticMesh* NewMesh)
+void AReagent::ApplyModifier(EPotionEffectType Modifier, UStaticMesh* NewMesh)
 {
 	ReagentData.ModifierSign += static_cast<int>(Modifier);
 	MeshComponent->SetStaticMesh(NewMesh);

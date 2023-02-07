@@ -13,7 +13,7 @@ class GREENLION_API AReagentProcessor : public AActor
 	GENERATED_BODY()
 
 	UPROPERTY(EditDefaultsOnly, meta=(AllowPrivateAccess = "true"))
-	EModifier Modifier;
+	EPotionEffectType Modifier;
 
 	UPROPERTY(EditDefaultsOnly)
 	UStaticMesh* ModelToApply;
