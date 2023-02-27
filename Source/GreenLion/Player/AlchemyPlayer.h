@@ -3,7 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Pawn.h"
+#include "BasePlayerCharacter.h"
+#include "GameFramework/Character.h"
 #include "GreenLion/Alchemy/ReagentData.h"
 #include "AlchemyPlayer.generated.h"
 
@@ -22,17 +23,9 @@ enum Inputs
 };
 
 UCLASS()
-class GREENLION_API AAlchemyPlayer : public APawn
+class GREENLION_API AAlchemyPlayer : public ABasePlayerCharacter
 {
 	GENERATED_BODY()
-
-	void ButtonPressed(Inputs GivenInput);
-
-	UPROPERTY()
-	UCameraComponent* CameraComponent;
-
-	UPROPERTY()
-	UInteractionComponent* InteractionComponent;
 
 public:
 	// Sets default values for this pawn's properties
@@ -49,22 +42,20 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	AReagent* GetHeldReagent() {return HeldReagent;}
+	AReagent* GetHeldReagent() const {return HeldReagent;}
 
 private:
-	//individual input actions
-	void JumpPressed() {ButtonPressed(Inputs::Jump);}
-	void CrouchPressed() {ButtonPressed(Inputs::Crouch);}
-	void SprintPressed() {ButtonPressed(Inputs::Sprint);}
-	void AttackPressed() {ButtonPressed(Inputs::Attack);}
-	void ThrowPressed() {ButtonPressed(Inputs::Throw);}
-	void InteractPressed() {ButtonPressed(Inputs::Interact);}
-	void UsePressed() {ButtonPressed(Inputs::Use);}
 
-	void SelectObject();
+	/** Called for movement input */
+	void MoveX(const float Value);
+	void MoveZ(const float Value);
+	
+	/** Called for looking input */
+	void LookX(const float Value);
+	void LookY(const float Value);
 
+	
+
+	UPROPERTY()
 	AReagent* HeldReagent;
-
-
-
 };

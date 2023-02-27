@@ -3,12 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BasePlayerCharacter.h"
 #include "GameFramework/Character.h"
 #include "GLMainCharacter.generated.h"
 
 
 UCLASS(config=Game)
-class AGLMainCharacter : public ACharacter
+class AGLMainCharacter : public ABasePlayerCharacter
 {
 	GENERATED_BODY()
 
@@ -16,20 +17,8 @@ class AGLMainCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
 
-	/** Follow camera */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	class UCameraComponent* FollowCamera;
-	
-	/** MappingContext */
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Interaction, meta = (AllowPrivateAccess = "true"))
-	class UInteractionComponent* InteractionComponent;
-
 public:
 	AGLMainCharacter();
-
-	
-	
 
 protected:
 
@@ -48,12 +37,10 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 	// To add mapping context
-	virtual void BeginPlay();
+	virtual void BeginPlay() override;
 
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-	/** Returns FollowCamera subobject **/
-	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 };
 

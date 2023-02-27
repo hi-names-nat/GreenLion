@@ -18,21 +18,22 @@ UInteractionComponent::UInteractionComponent()
 
 void UInteractionComponent::AttemptInteract()
 {
-	UE_LOG(LogTemp, Log, TEXT("Pew"));
-	auto owner = Cast<AGLMainCharacter>(GetOwner());
-	auto cameraPos = owner->GetFollowCamera()->GetComponentLocation();
-	auto cameraForward = owner->GetFollowCamera()->GetForwardVector();
+	auto Owner = Cast<ABasePlayerCharacter>(GetOwner());
+	auto CameraPos = Owner->GetCamera()->GetComponentLocation();
+	auto CameraForward = Owner->GetCamera()->GetForwardVector();
 	FCollisionQueryParams CollisionParams;
 	CollisionParams.AddIgnoredActor(GetOwner());
-	FHitResult OUT_Hit;
+	FHitResult Out_Hit;
+
+	auto World = GetWorld();
 	
-	if (!GetWorld()->LineTraceSingleByChannel(OUT_Hit, cameraPos, cameraPos +
-		(cameraForward * interactReach), ECC_Visibility, CollisionParams)) return;
-	DrawDebugLine(GetWorld(), cameraPos, cameraPos + (cameraForward * interactReach), FColor::Red,
+	if (!World->LineTraceSingleByChannel(Out_Hit, CameraPos, CameraPos +
+		(CameraForward * interactReach), ECC_Visibility, CollisionParams)) return;
+	DrawDebugLine(World, CameraPos, CameraPos + (CameraForward * interactReach), FColor::Red,
 		false, 5);
-	if (auto t = Cast<IInteractInterface>(OUT_Hit.Component->GetOwner()))
+	if (auto t = Cast<IInteractInterface>(Out_Hit.Component->GetOwner()))
 	{
-		t->Interact(Cast<APlayerController>(owner->GetController()));
+		t->Interact(Cast<APlayerController>(Owner->GetController()));
 	}
 }
 

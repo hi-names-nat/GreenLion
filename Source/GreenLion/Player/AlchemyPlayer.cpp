@@ -5,11 +5,8 @@
 
 #include "Camera/CameraComponent.h"
 #include "Interaction/InteractionComponent.h"
+#include "Kismet/GameplayStatics.h"
 
-void AAlchemyPlayer::ButtonPressed(Inputs GivenInput)
-{
-	
-}
 
 // Sets default values
 AAlchemyPlayer::AAlchemyPlayer()
@@ -42,26 +39,81 @@ void AAlchemyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	//binds for click-around
 	
+	//Interaction
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, InteractionComponent,
+		&UInteractionComponent::AttemptInteract);
 
-	//binds for QTEs
-	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AAlchemyPlayer::SprintPressed);
-	PlayerInputComponent->BindAction("Sneak", IE_Pressed, this, &AAlchemyPlayer::CrouchPressed);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AAlchemyPlayer::JumpPressed);
-	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AAlchemyPlayer::AttackPressed);
-	PlayerInputComponent->BindAction("Throw", IE_Pressed, this, &AAlchemyPlayer::ThrowPressed);
-	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AAlchemyPlayer::InteractPressed);
-	PlayerInputComponent->BindAction("Use", IE_Pressed, this, &AAlchemyPlayer::UsePressed);
+	//Move
+	PlayerInputComponent->BindAxis("MoveX", this, &AAlchemyPlayer::MoveZ);
+	PlayerInputComponent->BindAxis("MoveY", this, &AAlchemyPlayer::MoveX);
+
+
+	//Looking
+	PlayerInputComponent->BindAxis("LookPitch", this, &AAlchemyPlayer::LookY);
+	PlayerInputComponent->BindAxis("LookYaw", this, &AAlchemyPlayer::LookX);
 }
 
-void AAlchemyPlayer::SelectObject()
+void AAlchemyPlayer::MoveX(const float Value)
 {
-	FVector Position, Direction;
-	Cast<APlayerController>(this->GetController())->DeprojectMousePositionToWorld(Position, Direction);
-	FHitResult OUT_HitResult;
-	FCollisionQueryParams CollisionParams;
-	CollisionParams.AddIgnoredActor(this);
+	// input is a Vector2D
+
+	if (Controller != nullptr)
+	{
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+		
+		// get right vector 
+		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+		// add movement 
+		AddMovementInput(RightDirection, Value);
+	}
+}
+
+void AAlchemyPlayer::MoveZ(const float Value)
+{
+	if (Controller != nullptr)
+	{
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get forward vector
+		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 	
-	GetWorld()->LineTraceSingleByChannel(OUT_HitResult, Position, Position + (Direction * 100), ECC_Visibility, CollisionParams);
-	//Add interact with object.
+		// get right vector 
+
+		// add movement 
+		AddMovementInput(ForwardDirection, Value);
+	}
+}
+
+void AAlchemyPlayer::LookX(const float Value)
+{
+	// input is a Vector2D
+
+	if (Controller != nullptr)
+	{
+		// add yaw and pitch input to controller
+		if (Controller != nullptr)
+		{
+			// add yaw and pitch input to controller
+			CameraComponent->AddLocalRotation(FRotator(-Value * 2, 0 , 0));
+			auto ClampedRotation = FMath::Clamp(CameraComponent->GetComponentRotation().Pitch, -80, 80);
+			CameraComponent->SetWorldRotation(FRotator(ClampedRotation, CameraComponent->GetComponentRotation().Yaw, CameraComponent->GetComponentRotation().Roll)); 
+		}
+	}
+}
+
+void AAlchemyPlayer::LookY(const float Value)
+{
+	// input is a Vector2D
+
+	if (Controller != nullptr)
+	{
+		// add yaw and pitch input to controller
+		AddControllerYawInput(Value);
+	}
 }
 
