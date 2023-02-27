@@ -4,6 +4,7 @@
 #include "AlchemyPlayer.h"
 
 #include "Camera/CameraComponent.h"
+#include "Interaction/InteractionComponent.h"
 
 void AAlchemyPlayer::ButtonPressed(Inputs GivenInput)
 {
@@ -18,6 +19,8 @@ AAlchemyPlayer::AAlchemyPlayer()
 
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComponent->SetupAttachment(RootComponent);
+
+	InteractionComponent = CreateDefaultSubobject<UInteractionComponent>(TEXT("Interaction"));
 }
 
 // Called when the game starts or when spawned

@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "ReagentProcessor.h"
 #include "ReagentData.h"
+#include "GreenLion/Player/AlchemyPlayer.h"
 
 
 // Sets default values
@@ -26,7 +27,14 @@ void AReagentProcessor::Tick(float DeltaTime)
 
 void AReagentProcessor::ProcessReagent(AReagent* ReagentData)
 {
-	ReagentData->ApplyModifier(Modifier, ModelToApply);
-	ReagentData->SetActorLocation(ModifiedSpawnPoint->GetComponentLocation());
+	ReagentData->ApplyModifier(Modifier, ModelToApply, DistillValue);
+}
+
+void AReagentProcessor::Interact(APlayerController* PlayerController)
+{
+	IInteractInterface::Interact(PlayerController);
+	AAlchemyPlayer* player = Cast<AAlchemyPlayer>(PlayerController->GetPawn());
+	player->GetHeldReagent()->ApplyModifier(Modifier, ModelToApply, DistillValue);
+
 }
 

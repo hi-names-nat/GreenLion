@@ -4,8 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "GreenLion/Alchemy/ReagentData.h"
 #include "AlchemyPlayer.generated.h"
 
+class UInteractionComponent;
 class UCameraComponent;
 
 enum Inputs
@@ -26,7 +28,11 @@ class GREENLION_API AAlchemyPlayer : public APawn
 
 	void ButtonPressed(Inputs GivenInput);
 
+	UPROPERTY()
 	UCameraComponent* CameraComponent;
+
+	UPROPERTY()
+	UInteractionComponent* InteractionComponent;
 
 public:
 	// Sets default values for this pawn's properties
@@ -43,6 +49,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	AReagent* GetHeldReagent() {return HeldReagent;}
+
 private:
 	//individual input actions
 	void JumpPressed() {ButtonPressed(Inputs::Jump);}
@@ -54,6 +62,8 @@ private:
 	void UsePressed() {ButtonPressed(Inputs::Use);}
 
 	void SelectObject();
+
+	AReagent* HeldReagent;
 
 
 

@@ -3,11 +3,13 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ReagentData.h"
 #include "GameFramework/Actor.h"
+#include "GreenLion/Player/Interaction/InteractInterface.h"
 #include "Cauldron.generated.h"
 		
 UCLASS()
-class GREENLION_API ACauldron : public AActor
+class GREENLION_API ACauldron : public AActor, public IInteractInterface
 {
 	GENERATED_BODY()
 
@@ -24,4 +26,16 @@ protected:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void AddReagent(FReagentData NewReagent);
+	
+private:
+	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
+	class URecipes* Recipes;
+
+	TArray<FReagentData> CurrentContents;
+
+
+	virtual void Interact(APlayerController* PlayerController) override;
+
 };

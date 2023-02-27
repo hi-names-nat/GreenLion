@@ -5,15 +5,16 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "ReagentData.h"
+#include "GreenLion/Player/Interaction/InteractInterface.h"
 #include "ReagentProcessor.generated.h"
 
 UCLASS()
-class GREENLION_API AReagentProcessor : public AActor
+class GREENLION_API AReagentProcessor : public AActor, public IInteractInterface
 {
 	GENERATED_BODY()
 
 	UPROPERTY(EditDefaultsOnly, meta=(AllowPrivateAccess = "true"))
-	EPotionEffectType Modifier;
+	EModifierType Modifier;
 
 	UPROPERTY(EditDefaultsOnly)
 	UStaticMesh* ModelToApply;
@@ -34,4 +35,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void ProcessReagent(AReagent* ReagentData);
+	
+	/**
+	 * @brief The distillation value to give the modifier. MUST be '-1' if irrelevant.
+	 */
+	float DistillValue = -1;
+
+private:
+	virtual void Interact(APlayerController* PlayerController) override;
+
 };
