@@ -16,7 +16,7 @@ jobs:
           # A GitHub personal access token with write access to the project
           github-token: ${{ secrets.ACCESS_KEY }}
           # A comma-separated list of labels to use as a filter for issue to be added
-          labeled: Explore
+          labeled: explore
   add-to-alchemy:
     name: Add issues to alchemy project
     runs-on: ubuntu-latest
@@ -28,4 +28,4 @@ jobs:
           # A GitHub personal access token with write access to the project
           github-token: ${{ secrets.ACCESS_KEY }}
           # A comma-separated list of labels to use as a filter for issue to be added
-          labeled: Alchemy
+          labeled: alchemy
