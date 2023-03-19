@@ -22,8 +22,6 @@ protected:
 	virtual void BeginPlay() override;
 
 	
-
-
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

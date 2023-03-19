@@ -39,6 +39,6 @@ void ACauldron::AddReagent(FReagentData NewReagent)
 void ACauldron::Interact(APlayerController* PlayerController)
 {
 	AAlchemyPlayer* player = Cast<AAlchemyPlayer>(PlayerController->GetPawn());
-	AddReagent(player->GetHeldReagent()->GetReagentData());
+	AddReagent(player->GetHeldReagent()->GetReagentData());	
 }
 
