@@ -25,7 +25,7 @@ void AReagentProcessor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AReagentProcessor::ProcessReagent(AReagent* ReagentData)
+void AReagentProcessor::ProcessReagent(AWorldReagent* ReagentData)
 {
 	ReagentData->ApplyModifier(Modifier, ModelToApply, DistillValue);
 }

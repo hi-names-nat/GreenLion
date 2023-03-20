@@ -42,20 +42,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	AReagent* GetHeldReagent() const {return HeldReagent;}
+	TSharedPtr<FReagentData> GetHeldReagent() const {return HeldReagent;}
 
 private:
 
 	/** Called for movement input */
 	void MoveX(const float Value);
-	void MoveZ(const float Value);
+	void MoveY(const float Value);
 	
 	/** Called for looking input */
 	void LookX(const float Value);
 	void LookY(const float Value);
-
 	
-
-	UPROPERTY()
-	AReagent* HeldReagent;
+	TSharedPtr<FReagentData> HeldReagent;
 };

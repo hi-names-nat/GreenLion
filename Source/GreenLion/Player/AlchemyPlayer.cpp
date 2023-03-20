@@ -44,7 +44,7 @@ void AAlchemyPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 		&UInteractionComponent::AttemptInteract);
 
 	//Move
-	PlayerInputComponent->BindAxis("MoveX", this, &AAlchemyPlayer::MoveZ);
+	PlayerInputComponent->BindAxis("MoveX", this, &AAlchemyPlayer::MoveY);
 	PlayerInputComponent->BindAxis("MoveY", this, &AAlchemyPlayer::MoveX);
 
 
@@ -71,7 +71,7 @@ void AAlchemyPlayer::MoveX(const float Value)
 	}
 }
 
-void AAlchemyPlayer::MoveZ(const float Value)
+void AAlchemyPlayer::MoveY(const float Value)
 {
 	if (Controller != nullptr)
 	{

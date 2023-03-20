@@ -34,7 +34,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void ProcessReagent(AReagent* ReagentData);
+	void ProcessReagent(AWorldReagent* ReagentData);
 	
 	/**
 	 * @brief The distillation value to give the modifier. MUST be '-1' if irrelevant.
@@ -42,6 +42,9 @@ public:
 	float DistillValue = -1;
 
 private:
+	/**
+	 * @brief Interact, in this situation is used to pick up reagents.
+	 * @param PlayerController The playercontroller initiating this interact
+	 */
 	virtual void Interact(APlayerController* PlayerController) override;
-
 };
