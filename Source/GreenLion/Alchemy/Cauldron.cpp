@@ -5,6 +5,7 @@
 
 #include "Recipe.h"
 #include "GreenLion/Player/AlchemyPlayer.h"
+#include "GreenLion/Player/GLPlayerController.h"
 
 
 // Sets default values
@@ -36,9 +37,21 @@ void ACauldron::AddReagent(FReagentData NewReagent)
 	Recipes->EvaluatePossibleRecipes(CurrentContents);
 }
 
+void ACauldron::CreateNewPotion(Alchemy::Potions::FPotionBottle Bottle, APlayerController* PlayerController)
+{
+	auto playerController = Cast<AGLPlayerController>(PlayerController);
+}
+
 void ACauldron::Interact(APlayerController* PlayerController)
 {
 	AAlchemyPlayer* player = Cast<AAlchemyPlayer>(PlayerController->GetPawn());
-	AddReagent(*player->GetHeldReagent().Get());	
+	if (auto reagent = Cast<FReagentData>(player->GetHeldObject().Get()))
+	{
+		AddReagent(*reagent);
+	}
+	else if (auto bottle = Cast<Alchemy::Potions::FPotionBottle>(player->GetHeldObject().Get()))
+	{
+		
+	}
 }
 

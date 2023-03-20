@@ -34,7 +34,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void ProcessReagent(AWorldReagent* ReagentData);
+	void ProcessReagent(TSharedPtr<FReagentData> ReagentData);
 	
 	/**
 	 * @brief The distillation value to give the modifier. MUST be '-1' if irrelevant.

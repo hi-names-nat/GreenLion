@@ -3,33 +3,34 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Alchemy/PotionData.h"
 #include "UObject/NoExportTypes.h"
 #include "PotionInventory.generated.h"
 
-
-struct FPotionProps;
-
-/**
+namespace Alchemy
+{
+	/**
  * 
  */
-class UPotion;
+	class UPotion;
 
-UCLASS()
-class GREENLION_API UPotionInventory : public USceneComponent
-{
-	GENERATED_BODY()
-private:
+	UCLASS()
+	class GREENLION_API UPotionInventory : public UStaticMeshComponent
+	{
+		GENERATED_BODY()
+	private:
 
-public:
-	UPotionInventory();
-	TArray<UPotion*> thePotions;
+	public:
+		UPotionInventory();
+		TArray<Alchemy::Potions::FPotionProps> Potions;
 
+		Alchemy::Potions::FPotionProps CurrentProps;
 	
-	TArray<FPotionProps> GrabPotion(int i);
-	bool IsThrown(int index);
-	bool ThrowPotion(int index);
-	int Sell(int index);
-	int SellAll();
-	
-	
-};
+		void SwitchPotion(int I);
+		bool ThrowPotion(int Index);
+		int Sell(int Index);
+		int SellAll();
+	};
+
+}
+

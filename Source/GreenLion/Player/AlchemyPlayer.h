@@ -42,7 +42,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	TSharedPtr<FReagentData> GetHeldReagent() const {return HeldReagent;}
+	TSharedPtr<FAlchemyHoldableObject> GetHeldObject() const {return HeldObject;}
 
 private:
 
@@ -54,5 +54,5 @@ private:
 	void LookX(const float Value);
 	void LookY(const float Value);
 	
-	TSharedPtr<FReagentData> HeldReagent;
+	TSharedPtr<FAlchemyHoldableObject> HeldObject;
 };

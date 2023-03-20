@@ -9,31 +9,21 @@
 
 struct FRecipe;
 
-UENUM()
-enum struct EReagentType
-{
-	Berry,
-	Flower,
-	Herb,
-	Animal,	
-};
-
+/// This is a small enum that represents all of our possible Reagents.
+/// Likely there is a better way to do this, but I can't think of one.
+/// If this gets too big, let's pull it out into its own file.
+/// TODO: Turn this into a blueprint enum to allow quick changing of
+/// what reagents are included.
 UENUM()
 enum struct EReagentClassification
 {
-	Fae,
-	Earthen,
-	
-};
-	
-UENUM()
-enum struct EPotionEffectType
-{
-	Fire,
-	NightVision,
-	Poison,
-	InstantHarm,
-	Speed,
+	Reagent1,	Reagent2,	Reagent3,
+	Reagent4,	Reagent5,	Reagent6,
+	Reagent7,	Reagent8,	Reagent9,
+	Reagent10,	Reagent11,	Reagent12,
+	Reagent13,	Reagent14,	Reagent15,
+	Reagent16,	Reagent17,	Reagent18,
+	Reagent19,	Reagent20,
 };
 
 UENUM()
@@ -45,22 +35,15 @@ enum struct EModifierType : uint8
 };
 
 USTRUCT()
-struct FPotionEffect
-{
+struct FAlchemyHoldableObject {
 	GENERATED_BODY()
-	//The type of effect to add to the potion
-	EPotionEffectType Type;
-
-	//The modifier of the value.
-	//	For instance: Speed with a modifier of 1.5 will multiply the user's
-	//	speed by 1.5x for the duration.
-	float Modifier;
 };
 
+constexpr float DISTILL_FORGIVENESS = .1F;
+
 USTRUCT()
-struct FReagentData
+struct FReagentData: public FAlchemyHoldableObject
 {
-	const float DISTILL_FORGIVENESS = .1F;
 	
 	GENERATED_BODY();
 
@@ -102,16 +85,16 @@ struct FReagentData
 		return (ModifierOrder == rhs.ModifierOrder && (abs(DistillValue- rhs.DistillValue) <= DISTILL_FORGIVENESS));
 	}
 
-	//TODO: Turn the ModifierOrder into a bitmask u16. I.E.
-	// 000 _ 000 _ 000 _ 000 _ 000 _ 0
-	// R_1	 R_2   R_3   [  Unused  ]
-	// 3-Byte array functions as (in big endian order)
-	// Index 0: Heated
-	// Index 1: Crushed
-	// Index 2: Distilled
-	//Combine with DistillValue for final equality check (or append DistillValue upon our bitmask?)
-														// ^ No, no. That won't work if we want a
-														// forgiveness. Think about it.
+	/* TODO: Turn the ModifierOrder into a bitmask u16. I.E.
+	* 000 000 000 0000000
+	* R_1 R_2 R_3 [Unused]	
+	* R_1: Heated
+	* R_2: Crushed
+	* R_3: Distilled
+	* Combine with DistillValue for final equality check (or append DistillValue upon our bitmask?)
+	*														^ No, no. That won't work if we want a
+	*														  forgiveness. Think about it.
+	*/
 };
 
 UCLASS()

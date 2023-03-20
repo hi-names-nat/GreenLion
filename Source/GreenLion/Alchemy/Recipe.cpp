@@ -1,21 +1,23 @@
+
+
 #include "Recipe.h"
 
 void URecipes::EvaluatePossibleRecipes(TArray<FReagentData> CurrentContents)
 {
-	for (auto recipe : Recipes)
+	for (auto Recipe : Recipes)
 	{
-		bool validRecipe = true;
-		auto Reagents = recipe.RequiredReagents;
-		for (int i = 0; i < recipe.RequiredReagents.Num(); i++)
+		bool bValidRecipe = true;
+		auto Reagents = Recipe.RequiredReagents;
+		for (int i = 0; i < Recipe.RequiredReagents.Num(); i++)
 		{
-			if (!(CurrentContents.Contains(Reagents[i])))
+			if (!CurrentContents.Contains(Reagents[i]))
 			{
-				validRecipe = false;
+				bValidRecipe = false;
 			}
 		}
-		if (validRecipe)
+		if (bValidRecipe)
 		{
-			CurrentRecipe = recipe;
+			CurrentRecipe = Recipe;
 			return;
 		}
 	}

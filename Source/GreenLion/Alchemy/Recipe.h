@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ReagentData.h"
+#include "PotionData.h"
 #include "Recipe.generated.h"
 
 struct FReagentData;

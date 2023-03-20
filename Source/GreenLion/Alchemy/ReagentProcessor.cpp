@@ -25,9 +25,12 @@ void AReagentProcessor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AReagentProcessor::ProcessReagent(AWorldReagent* ReagentData)
+void AReagentProcessor::ProcessReagent(TSharedPtr<FReagentData> ReagentData)
 {
-	ReagentData->ApplyModifier(Modifier, ModelToApply, DistillValue);
+	if (ReagentData)
+	{
+		ReagentData.Get()->ApplyModifier(Modifier, ModelToApply, DistillValue);
+	}
 }
 
 void AReagentProcessor::Interact(APlayerController* PlayerController)
