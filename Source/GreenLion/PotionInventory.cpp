@@ -3,8 +3,6 @@
 
 #include "PotionInventory.h"
 
-#include "Alchemy/Utils.h"
-
 namespace Alchemy
 {
 	/*enum Effect { Heal, Speed, Fire, None };
@@ -27,14 +25,14 @@ namespace Alchemy
 			CurrentProps = Potions[index];
 		} else {
 		
-			UE_LOG(AlchemyError, Error, TEXT("Could not grab potion at index %d"), index);
+			UE_LOG(LogTemp, Error, TEXT("Could not grab potion at index %d"), index);
 		}
 	}
 
 	bool UPotionInventory::ThrowPotion(const int Index)      //Removes the element at index, then returns if it's thrown or not
 	{
 		//TODO
-		UE_LOG(AlchemyFatal, Fatal, TEXT("ThrowPotion is not implemented!"), Index);
+		UE_LOG(LogTemp, Fatal, TEXT("ThrowPotion is not implemented!"), Index);
 		return false;
 
 	}

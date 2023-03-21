@@ -1,5 +1,4 @@
 
-
 #include "Recipe.h"
 
 void URecipes::EvaluatePossibleRecipes(TArray<FReagentData> CurrentContents)

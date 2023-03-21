@@ -3,7 +3,6 @@
 #include "PotionData.h"
 #include "Recipe.generated.h"
 
-struct FReagentData;
 
 USTRUCT()
 struct FRecipe

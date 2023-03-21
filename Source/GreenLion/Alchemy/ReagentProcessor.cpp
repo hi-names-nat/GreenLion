@@ -25,11 +25,11 @@ void AReagentProcessor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void AReagentProcessor::ProcessReagent(TSharedPtr<FReagentData> ReagentData)
+void AReagentProcessor::ProcessReagent(FReagentData* ReagentData)
 {
 	if (ReagentData)
 	{
-		ReagentData.Get()->ApplyModifier(Modifier, ModelToApply, DistillValue);
+		ReagentData->ApplyModifier(Modifier, ModelToApply, DistillValue);
 	}
 }
 
@@ -37,7 +37,7 @@ void AReagentProcessor::Interact(APlayerController* PlayerController)
 {
 	IInteractInterface::Interact(PlayerController);
 	AAlchemyPlayer* player = Cast<AAlchemyPlayer>(PlayerController->GetPawn());
-	player->GetHeldReagent()->ApplyModifier(Modifier, ModelToApply, DistillValue);
-
+	FReagentData* ReagentData = Cast<FReagentData>(player->GetHeldObject().Get());
+	ProcessReagent(ReagentData);
 }
 
