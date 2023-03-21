@@ -22,9 +22,9 @@ namespace Alchemy
 
 	public:
 		UPotionInventory();
-		TArray<Alchemy::Potions::FPotionProps> Potions;
+		TArray<Potions::FPotionProps> Potions;
 
-		Alchemy::Potions::FPotionProps CurrentProps;
+		Potions::FPotionProps CurrentProps;
 	
 		void SwitchPotion(int I);
 		bool ThrowPotion(int Index);

@@ -11,17 +11,6 @@
 class UInteractionComponent;
 class UCameraComponent;
 
-enum Inputs
-{
-	Jump,
-	Crouch,
-	Sprint,
-	Attack,
-	Throw,
-	Use,
-	Interact,
-};
-
 UCLASS()
 class GREENLION_API AAlchemyPlayer : public ABasePlayerCharacter
 {
@@ -43,6 +32,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	TSharedPtr<FAlchemyHoldableObject> GetHeldObject() const {return HeldObject;}
+	void SetHeldObject(FAlchemyHoldableObject* Object) {HeldObject = TSharedPtr<FAlchemyHoldableObject>(Object);}
 
 private:
 

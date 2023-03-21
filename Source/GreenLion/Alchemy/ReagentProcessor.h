@@ -8,19 +8,46 @@
 #include "GreenLion/Player/Interaction/InteractInterface.h"
 #include "ReagentProcessor.generated.h"
 
+
 UCLASS()
 class GREENLION_API AReagentProcessor : public AActor, public IInteractInterface
 {
 	GENERATED_BODY()
 
+	/**
+	 * @brief How much we distill per second.
+	 */
+	const float DISTILLATION_PER_SECOND = .1f;
+
+	/**
+	 * @brief The modifier to apply.
+	 */
 	UPROPERTY(EditDefaultsOnly, meta=(AllowPrivateAccess = "true"))
 	EModifierType Modifier;
 
-	UPROPERTY(EditDefaultsOnly)
-	UStaticMesh* ModelToApply;
+	/**
+	 * @brief The imposter mesh we display when we're holding a reagent.
+	 */
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* ProcessedReagentMesh;
+
+	/**
+	 * @brief The audio we play when we place a reagent inside this processor.
+	 */
+	UPROPERTY(EditAnywhere)
+	UAudioComponent* ProcessAudio;
+
+	/**
+	 * @brief The container for our reagent.
+	 */
+	TUniquePtr<FReagentData> HeldReagent;
+
+	/**
+	 * @brief A cache we use to tell if this processor is used as a distillery.
+	 */
+	bool isDistill = false; 
+
 	
-	UPROPERTY()
-	USceneComponent* ModifiedSpawnPoint;
 
 public:
 	// Sets default values for this actor's properties
@@ -34,7 +61,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void ProcessReagent(FReagentData* ReagentData);
+	void ProcessReagent();
 	
 	/**
 	 * @brief The distillation value to give the modifier. MUST be '-1' if irrelevant.
