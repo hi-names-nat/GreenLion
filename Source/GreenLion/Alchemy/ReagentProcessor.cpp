@@ -23,10 +23,10 @@ void AReagentProcessor::BeginPlay()
 
 	//We do this so we don't have to check this every frame, since ReagentProcessors never change what sort of
 	//Process they perform.
-	isDistill = (Modifier == EModifierType::Distilled);
+	bIsDistill = (Modifier == EModifierType::Distilled);
 
 	//Only the distillery needs to tick, so we conditionally turn it on in case this is a distillery.
-	PrimaryActorTick.bCanEverTick = isDistill;
+	PrimaryActorTick.bCanEverTick = bIsDistill;
 	
 }
 
@@ -36,8 +36,9 @@ void AReagentProcessor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	//If we're a distillation processor, we continuously process this object until it is picked up.
-	if (isDistill && HeldReagent)
+	if (bIsDistill && HeldReagent)
 	{
+		if (HeldReagent.Get()->DistillValue == 1) return;
 		HeldReagent.Get()->DistillValue += DeltaTime * DISTILLATION_PER_SECOND;
 	}
 }
@@ -71,7 +72,7 @@ void AReagentProcessor::Interact(APlayerController* PlayerController)
 			//...hide the imposter mesh...
 			ProcessedReagentMesh->SetVisibility(false);
 			//reset our distillation value...
-			DistillValue = isDistill? 0 : -1;
+			DistillValue = bIsDistill? 0 : -1;
 			//...and stop the associated sound, given it isn't empty, in case it's a looping clip!
 			if (ProcessAudio) ProcessAudio->Stop();
 		}
@@ -83,8 +84,8 @@ void AReagentProcessor::Interact(APlayerController* PlayerController)
 		//...Give us the player's heldObject...
 		Player->SetHeldObject(nullptr);
 		HeldReagent = TUniquePtr<FReagentData>(Data);
-		//...set our DistillValue to a proper value if it's a distillery...
-		DistillValue = isDistill? 0 : -1;
+		//...set our DistillValue to a proper value if it's a distillery (or the existing value)...
+		if (bIsDistill) HeldReagent->DistillValue == -1? 0 : HeldReagent->DistillValue;
 		//...process it...
 		ProcessReagent();
 		//...and play the associated sound, given it isn't empty!

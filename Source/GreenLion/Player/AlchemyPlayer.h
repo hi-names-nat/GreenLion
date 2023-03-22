@@ -16,15 +16,20 @@ class GREENLION_API AAlchemyPlayer : public ABasePlayerCharacter
 {
 	GENERATED_BODY()
 
+////////////////////////////////////////////////////////////////////////
+/////////////////////////// VARIABLES //////////////////////////////////
+protected:
+
+	TSharedPtr<FAlchemyHoldableObject> HeldObject;
+public:
+
+////////////////////////////////////////////////////////////////////////
+/////////////////////////// FUNCTIONS //////////////////////////////////
+
 public:
 	// Sets default values for this pawn's properties
 	AAlchemyPlayer();
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:	
+	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -34,8 +39,10 @@ public:
 	TSharedPtr<FAlchemyHoldableObject> GetHeldObject() const {return HeldObject;}
 	void SetHeldObject(FAlchemyHoldableObject* Object) {HeldObject = TSharedPtr<FAlchemyHoldableObject>(Object);}
 
-private:
-
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+	
 	/** Called for movement input */
 	void MoveX(const float Value);
 	void MoveY(const float Value);
@@ -44,5 +51,4 @@ private:
 	void LookX(const float Value);
 	void LookY(const float Value);
 	
-	TSharedPtr<FAlchemyHoldableObject> HeldObject;
 };
