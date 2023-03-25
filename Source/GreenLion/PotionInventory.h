@@ -7,8 +7,6 @@
 #include "UObject/NoExportTypes.h"
 #include "PotionInventory.generated.h"
 
-namespace Alchemy
-{
 	/**
  * 
  */
@@ -17,20 +15,18 @@ namespace Alchemy
 	UCLASS()
 	class GREENLION_API UPotionInventory : public UStaticMeshComponent
 	{
-		GENERATED_BODY()
+	GENERATED_BODY()
 	private:
 
 	public:
 		UPotionInventory();
-		TArray<Potions::FPotionProps> Potions;
+		TArray<FPotionProps> Potions;
 
-		Potions::FPotionProps CurrentProps;
+		FPotionProps CurrentProps;
 	
 		void SwitchPotion(int I);
 		bool ThrowPotion(int Index);
 		int Sell(int Index);
 		int SellAll();
 	};
-
-}
 

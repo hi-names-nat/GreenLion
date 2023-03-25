@@ -6,8 +6,6 @@
 #include "ReagentData.h"
 #include "PotionData.generated.h"
 
-namespace Alchemy::Potions
-{
 /// The possible potion effects
 UENUM()
 enum struct EPotionEffectType
@@ -59,4 +57,3 @@ struct FPotionProps {
 	int Duration;
 	int SellValue;
 };
-}

@@ -6,8 +6,6 @@
 #include "GreenLion/Player/AlchemyPlayer.h"
 #include "GreenLion/Player/GLPlayerController.h"
 
-namespace Alchemy
-{
 	// Sets default values
 	ACauldron::ACauldron()
 	{
@@ -37,26 +35,24 @@ namespace Alchemy
 		Recipes->EvaluatePossibleRecipes(CurrentContents);
 	}
 
-	void ACauldron::CreateNewPotion(Alchemy::Potions::FPotionBottle* Bottle, APlayerController* PlayerController)
+	void ACauldron::CreateNewPotion(FPotionBottle* Bottle, APlayerController* PlayerController)
 	{
-		auto GLController = Cast<AGLPlayerController>(PlayerController);
-		if (!GLController) {
-			UE_LOG(LogTemp, Error, TEXT("Could not convert associated player's "
-				"controller %s to expected type, 'AGLPlayerController'. Is your controller properly configured to use "
-				"AGLPlayerController?"), *PlayerController->GetName())
-		}
+		// auto GLController = Cast<AGLPlayerController>(PlayerController);
+		// if (!GLController) {
+		// 	
+		// }
+		
 	}
 
 	void ACauldron::Interact(APlayerController* PlayerController)
 	{
 		AAlchemyPlayer* player = Cast<AAlchemyPlayer>(PlayerController->GetPawn());
-		if (auto reagent = Cast<FReagentData>(player->GetHeldObject().Get()))
+		if (auto reagent = static_cast<FReagentData*>(player->GetHeldObject().Get()))
 		{
 			AddReagent(*reagent);
 		}
-		else if (auto bottle = Cast<Alchemy::Potions::FPotionBottle>(player->GetHeldObject().Get()))
+		else if (auto bottle = static_cast<FPotionBottle*>(player->GetHeldObject().Get()))
 		{
 			CreateNewPotion(bottle, PlayerController);
 		}
 	}
-}

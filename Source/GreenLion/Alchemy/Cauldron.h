@@ -7,13 +7,9 @@
 #include "Recipe.h"
 #include "ReagentData.h"
 #include "GameFramework/Actor.h"
-#include "GreenLion/Player/Interaction/InteractInterface.h"
+#include "../Player/Interaction/InteractInterface.h"
 #include "Cauldron.generated.h"
 
-struct Alchemy::Potions::FPotionBottle;
-
-namespace Alchemy
-{
 
 UCLASS()
 class GREENLION_API ACauldron : public AActor, public IInteractInterface
@@ -33,7 +29,7 @@ protected:
 	virtual void Tick(float DeltaTime) override;
 
 	void AddReagent(FReagentData NewReagent);
-	void CreateNewPotion(Alchemy::Potions::FPotionBottle* Bottle, APlayerController* PlayerController);
+	void CreateNewPotion(FPotionBottle* Bottle, APlayerController* PlayerController);
 	
 private:
 	UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess = "true"))
@@ -45,4 +41,3 @@ private:
 	virtual void Interact(APlayerController* PlayerController) override;
 
 };
-}

@@ -3,8 +3,6 @@
 
 #include "PotionInventory.h"
 
-namespace Alchemy
-{
 	/*enum Effect { Heal, Speed, Fire, None };
 		struct potionProps {
 			Effect effect;
@@ -15,7 +13,6 @@ namespace Alchemy
 
 	UPotionInventory::UPotionInventory()
 	{
-		PrimaryComponentTick.bCanEverTick = true;
 
 	}
 
@@ -25,14 +22,12 @@ namespace Alchemy
 			CurrentProps = Potions[index];
 		} else {
 		
-			UE_LOG(LogTemp, Error, TEXT("Could not grab potion at index %d"), index);
 		}
 	}
 
 	bool UPotionInventory::ThrowPotion(const int Index)      //Removes the element at index, then returns if it's thrown or not
 	{
 		//TODO
-		UE_LOG(LogTemp, Fatal, TEXT("ThrowPotion is not implemented!"), Index);
 		return false;
 
 	}
@@ -58,4 +53,3 @@ namespace Alchemy
 		Potions.Empty();
 		return sellPrice;
 	}
-}
