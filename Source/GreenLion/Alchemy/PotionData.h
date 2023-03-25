@@ -8,6 +8,7 @@
 
 namespace Alchemy::Potions
 {
+/// The possible potion effects
 UENUM()
 enum struct EPotionEffectType
 {
@@ -18,7 +19,8 @@ enum struct EPotionEffectType
 	Speed,
 	Health,
 };
-
+	
+///The possible potion bottle types
 UENUM()
 enum EPotionBottleType
 {
@@ -26,6 +28,7 @@ enum EPotionBottleType
 	Thrown,
 	Shake,
 	Mist,
+	Arrow,
 };
 
 USTRUCT()
@@ -35,7 +38,7 @@ struct FPotionEffect
 	//The type of effect to add to the potion
 	EPotionEffectType Type;
 
-	//The modifier of the value.
+	//  The modifier of the value.
 	//	For instance: Speed with a modifier of 1.5 will multiply the user's
 	//	speed by 1.5x for the duration.
 	float Modifier;
