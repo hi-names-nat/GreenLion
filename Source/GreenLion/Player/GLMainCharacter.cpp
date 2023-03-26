@@ -140,6 +140,26 @@ void AGLMainCharacter::LookY(const float Value)
 	}
 }
 
+void AGLMainCharacter::ReadyPotion()
+{
+}
+
+void AGLMainCharacter::ThrowPotion()
+{
+}
+
+void AGLMainCharacter::GetNextPotion(bool previous)
+{
+}
+
+void AGLMainCharacter::OpenPotionWheel()
+{
+}
+
+void AGLMainCharacter::ClosePotionWheel()
+{
+}
+
 
 
 

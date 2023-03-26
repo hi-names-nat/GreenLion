@@ -10,8 +10,11 @@ AReagentProcessor::AReagentProcessor()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
+	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Processor Root"));
 	ProcessAudio = CreateDefaultSubobject<UAudioComponent>(TEXT("Process Sound"));
+	ProcessAudio->SetupAttachment(RootComponent);
 	ProcessedReagentMesh = CreateDefaultSubobject<UStaticMeshComponent>("Processed Reagent Mesh");
+	ProcessedReagentMesh->SetupAttachment(RootComponent);
 	HeldReagent = nullptr;
 }
 

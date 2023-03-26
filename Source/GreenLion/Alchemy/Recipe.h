@@ -12,10 +12,16 @@ struct FRecipe
 	UPROPERTY(EditAnywhere)
 	TArray<FReagentData> RequiredReagents;
 
+	UPROPERTY(EditAnywhere)
 	float RequiredDistillationValue = -1;
+
+	UPROPERTY(EditAnywhere)
 	float distillForgivenessRange = .3F;
 
-	TArray<FPotionEffect> Effects;
+	UPROPERTY(EditAnywhere)
+	FPotionProps Effect;
+
+	UPROPERTY(EditAnywhere)
 	float EffectModifier;
 };
 
