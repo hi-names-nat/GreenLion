@@ -1,0 +1,31 @@
+name: Add To GitHub projects 
+ 
+on:
+  issues:
+    types:
+      - opened
+jobs: 
+  add-to-explore:
+    name: Add issues to explore project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.1
+        with:
+          # URL of the project to add issues to
+          project-url: https://github.com/users/hi-names-nat/projects/1
+          # A GitHub personal access token with write access to the project
+          github-token: ${{ secrets.ACCESS_KEY }}
+          # A comma-separated list of labels to use as a filter for issue to be added
+          labeled: explore
+  add-to-alchemy:
+    name: Add issues to alchemy project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.1
+        with:
+          # URL of the project to add issues to
+          project-url: https://github.com/users/hi-names-nat/projects/2
+          # A GitHub personal access token with write access to the project
+          github-token: ${{ secrets.ACCESS_KEY }}
+          # A comma-separated list of labels to use as a filter for issue to be added
+          labeled: alchemy

@@ -1,0 +1,74 @@
+enum Type
+	Flower,
+	Berry,
+	Herb,
+	...
+
+enum family
+	Fae,
+	Earthen,
+	Etc...
+	Etc...
+
+Enum struct Modifier
+	 Fire(float)
+	 Speed(float)
+	 ... etc.
+	 
+// how to hold processed items in inventory???
+
+Reagent
+	Type
+	Family
+	Modifier
+	Process[]
+	WorldModel
+	AlchemyModel
+	Name
+	Print() -> prints name, and processes if any. for UI pop-up
+
+World Reagent
+	Reagent
+	MeshComponent
+
+ReagentInventory
+	Reagent[]
+	
+MainPlayerController
+	ReagentInventory
+	PotionInventory
+
+MainPlayerCharacter
+	...
+
+enum Process
+	Mush,
+	Fire,
+	Etc...
+
+ReagentProcessor
+	Process
+	RespawnPoint
+	Meshtoapply
+
+FPotionRecipies // specifies unique recipe attribs.
+	Reagent[] IngredientList
+	Modifier ToApply
+	
+
+Cauldron
+	FPotionRecipes recipes
+	addreagent()
+	getpotion() -> checks against recipes //maybe do this additively....
+	
+	
+AlchemyPlayerCharacter
+	Select
+	Place
+	Grab...
+
+PotionInventory
+	Potions[]
+	SelectedPotion
+	UsePotion()
+	Potions[]
